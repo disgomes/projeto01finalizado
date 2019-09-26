@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+  color:#191970;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold; //negrito
+}
+ion-img{
+  margin:5px 3px 5px 5px; //top rigth botton left
+  border:3px solid #191970;
+  /*width:450px; largura
+  heigth:250px;*/
+}
+p{
+  text-align: justify;
+  font-size: 20;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:green;
+  background-color:#ccc;
+  margin-left:6px;
+  margin-right: 6px;
+}
+// para criar uma classe que usa em varios lugares
+.letra-class{
+  text-align: justify;
+  font-size: 20;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  color:rgb(128, 47, 0);
+  background-color:rgb(166, 146, 197);
+  margin-left:6px;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+// para criar um id que usa em um unico lugar
+#letra-id{
+  text-align: justify;
+  font-size: 20;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(19, 0, 128);
+  background-color:#ccc;
+  margin-left:6px;
+  margin-right: 6px;
+  border-radius: 5px;
+
+}
